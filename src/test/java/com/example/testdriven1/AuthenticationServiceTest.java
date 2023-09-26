@@ -1,8 +1,9 @@
-package com.example.testdriven1;
-
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
 
 public class AuthenticationServiceTest {
+
     @Test
     public void testLoginWithValidCredentials() {
         // Mocka en databas
